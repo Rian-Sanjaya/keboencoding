@@ -1,4 +1,5 @@
 // simple chatroom
+// Create an express server that sends back <div>, <input> for name, <textarea> for message, and <button> for submit tags when you visit XXX.garagescript.org/chat. When you click on the button tag, send the request to server (JavaScript) using fetch to /newMessage?name=..... Page should auto update chat messages every 1 second by calling /messages to get the array of messages to display.
 
 const express = require('express');
 const app = express();
