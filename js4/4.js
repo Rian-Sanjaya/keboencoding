@@ -4,6 +4,7 @@ const fs = require("fs");
 const express = require("express")
 const app = express();
 const handler = (req, res) => {
+  console.log(req);
   fs.readdir('/home', (err, dir) => {
     if (err) throw err;
     
