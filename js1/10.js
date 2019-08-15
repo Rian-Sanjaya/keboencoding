@@ -1,4 +1,6 @@
-// Write a function that takes in 2 numbers (a, b) and a function. It should execute the function after a milliseconds, and then execute the function again after b milliseconds. You are not allowed to use this: setTimeout(c, a + b);
+// Write a function that takes in 2 numbers (a, b) and a function. 
+// It should execute the function after a milliseconds, and then execute the function again after b milliseconds. 
+//You are not allowed to use this: setTimeout(c, a + b);
 
 // using setTimeout
 // const solution = (num1, num2, func) => {

@@ -2,6 +2,6 @@
 // use recursive for loop instead of while loop
 
 const solution = (x, i = 0, str = '') => {
-    if (i === x) return str;
-    return solution(x, i + 1, str + 'hello');
-  };
+  if (i === x) return str;
+  return solution(x, i + 1, str + 'hello');
+};
